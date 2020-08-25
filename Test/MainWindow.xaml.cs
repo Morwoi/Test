@@ -29,6 +29,7 @@ namespace Test
         {
             Window2 window2 = new Window2();
             window2.ShowDialog();
+            
 
         }
     }

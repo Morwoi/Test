@@ -23,5 +23,13 @@ namespace Test
         {
             InitializeComponent();
         }
+
+        // get Data from Selected Datagrid Row
+        
+        private void Window_Loaded(object sender, RoutedEventArgs e)
+        {
+            txb_Adresse_Window2.Text = MainWindow.
+
+        }
     }
 }

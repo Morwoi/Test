@@ -5,12 +5,13 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Test"
         mc:Ignorable="d"
-        Title="Window2" Height="450" Width="800">
+        Title="Window2" Height="450" Width="800" Loaded="Window_Loaded">
     <Grid>
-        <DataGrid HorizontalAlignment="Left" Height="286" Margin="10,125,0,0" VerticalAlignment="Top" Width="773"/>
+
+        <DataGrid HorizontalAlignment="Left" Height="286" Margin="10,125,0,0" VerticalAlignment="Top" Width="773" Grid.ColumnSpan="2"/>
         <TextBox x:Name="txb_Name_Windo2" HorizontalAlignment="Left" Height="37" Margin="32,44,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="140"/>
-        <TextBox x:Name="txt_Adresse_Window2" HorizontalAlignment="Left" Height="37" Margin="196,44,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="136"/>
-        <TextBox x:Name="txt_Nummer_Window2" HorizontalAlignment="Left" Height="51" Margin="647,30,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="83"/>
+        <TextBox x:Name="txb_Adresse_Window2" HorizontalAlignment="Left" Height="37" Margin="196,44,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="136"/>
+        <TextBox x:Name="txb_Nummer_Window2" HorizontalAlignment="Left" Height="51" Margin="700,10,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="83"/>
 
     </Grid>
 </Window>
