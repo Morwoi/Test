@@ -7,6 +7,13 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        
+        <DataGrid x:Name="dg_Main" HorizontalAlignment="Left" Height="331" Margin="10,80,0,0" VerticalAlignment="Top" Width="773">
+            <DataGrid.Columns>
+                <DataGridTextColumn Binding="{Binding Id}" Header="Id" Width="*" SortDirection="Ascending"/> 
+                <DataGridTextColumn Binding="{Binding Name}" Header="Name" Width="*"/>
+ 
+            </DataGrid.Columns>
+
+        </DataGrid>
     </Grid>
-</Window>
+ </Window>
